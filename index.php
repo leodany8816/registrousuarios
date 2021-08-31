@@ -37,7 +37,7 @@
                                     <div class="col-md-4">
                                         <div class="form-group">
                                             <label>Apellido Paterno</label>
-                                            <input type="text" tabindex="2" name="apellidos" id="apellidop"  class="form-control ax-form-inputs">
+                                            <input type="text" tabindex="2" name="apellidos" id="apellidop" class="form-control ax-form-inputs">
                                         </div>
                                     </div>
                                     <div class="col-md-4">
@@ -51,13 +51,13 @@
                                     <div class="col-md-4">
                                         <div class="form-group">
                                             <label>Fecha de nacimiento</label>
-                                            <input tabindex="3" type="text"  class="form-control ax-form-inputs" name="fnacimiento" id="fnacimiento">
+                                            <input tabindex="3" type="text" class="form-control ax-form-inputs" name="fnacimiento" id="fnacimiento">
                                         </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="form-group">
                                             <label>Correo electrónico (Email)</label>
-                                            <input tabindex="3" type="email" name="correo" id="correo" placeholder="name@example.com" autocomplete="off"  size="10" class="form-control ax-form-inputs">
+                                            <input tabindex="3" type="email" name="correo" id="correo" placeholder="name@example.com" autocomplete="off" size="10" class="form-control ax-form-inputs">
                                         </div>
                                     </div>
                                     <div class="col-md-4">
@@ -99,11 +99,10 @@
         </form>
     </div>
     <script src="js/vendors.bundle.js"></script>
-<script src="js/sweetalert2.bundle.js"></script>
-<script src="js/bootstrap-datepicker.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>	
-<script src="js/bootstrap-notify.js"></script>
-<script src="js/funciones.js"></script> 
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="js/bootstrap-notify.js"></script>
+    <script src="js/funciones.js"></script>
 </body>
 
 </html>

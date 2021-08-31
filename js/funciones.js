@@ -26,10 +26,10 @@ $(function(){
 });
 
 $(document).ready(function() {
-    console.log("3");
+    // console.log("3");
     $('#btnRegister').click(function(e) {
       e.preventDefault();
-      console.log('ya hicimos click');
+      //console.log('ya hicimos click');
       var nombre = $('#nombre').val();
       var app = $('#apellidop').val();
       var apm = $('#apellidom').val();
@@ -118,7 +118,7 @@ $(document).ready(function() {
         });
       }
       else{
-          console.log('listo');
+          //console.log('listo');
           $('#btnRegister').html('ESPERE, ESTAMOS PROCESANDO');
           $('#btnRegister').prop('disabled', true);
           $.ajax({
