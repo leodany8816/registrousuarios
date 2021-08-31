@@ -1,0 +1,29 @@
+html, body{
+    min-height: 100%;
+      background-color: #dddddd;
+  }
+  .ax-form-column{
+    background-color: #fff;
+  }
+
+  .ax-form-inputs, .ax-form-inputs:disabled{
+    border-radius: 50px;
+    padding: 20px;
+    background-color: #4d515b;
+    color:#c7c7c7;
+    border:0px;
+  }
+  .form-group > label{
+    color:#ececec !important;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    margin-top:15px;
+    padding-left:10px;
+    padding-right:10px;
+  }
+
+  .ax-container-form{
+    background-color: #282b30;
+    padding: 20px;
+    border-radius: 7px;
+  }
